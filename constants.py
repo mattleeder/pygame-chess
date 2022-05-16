@@ -1,0 +1,22 @@
+BLACK = (0, 0, 0)
+MOVE_COLOUR = (0 , 255, 0) # Green
+CAPTURE_COLOUR = (255, 0, 0) # Red
+BLACK_SQUARE = (235, 149, 52)
+WHITE_SQUARE = (240, 221, 199)
+WINDOW_WIDTH = 1024
+WINDOW_HEIGHT = 1024
+FRAMES_PER_SECOND = 30
+IMAGE_PIECE_WIDTH = 60
+PIECE_SIZE = 128
+SQUARE_SIZE = 128
+
+PINNABLE_VECTORS = set([
+    (0, 1),
+    (1, 1),
+    (1, 0),
+    (1, -1),
+    (0, -1),
+    (-1, -1),
+    (-1, 0),
+    (-1, 1)
+])
